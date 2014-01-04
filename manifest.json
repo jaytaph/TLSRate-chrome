@@ -1,0 +1,23 @@
+{
+    "manifest_version"    : 2,
+
+    "name"            : "TLS Rate",
+    "description"     : "Rates your current SSL/TLS connection",
+    "version"         : "1.0",
+    "homepage_url"    : "http://noxlogic.nl",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+    ],
+
+    "page_action": {
+        "default_icon"  : "images/check.png",
+        "default_title" : "TLS Rate",
+        "default_popup" : "popup.html"
+    }
+}
